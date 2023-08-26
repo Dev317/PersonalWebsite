@@ -13,6 +13,17 @@ ASSET_DIR = f"{os.getcwd()}/assets"
 CONFIG = get_config()
 PAGE = "About"
 
+st.sidebar.markdown("""
+***
+### Copyright
+```
+author={MinhVuQuang},
+year={2023}
+```
+***
+""",
+unsafe_allow_html=True)
+
 # Profile
 PROFILE_SECTION = "profile"
 profile_pic = get_circular_image(Image.open(f"{ASSET_DIR}/profile_pic.jpeg"))
