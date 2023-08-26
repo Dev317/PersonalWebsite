@@ -7,7 +7,7 @@ from utils.image_util import get_circular_image
 
 st.set_page_config(page_title="Minh's Website",
                    page_icon="✨",
-                   initial_sidebar_state="collapsed")
+                   initial_sidebar_state="auto")
 
 ASSET_DIR = f"{os.getcwd()}/assets"
 CONFIG = get_config()
