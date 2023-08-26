@@ -1,0 +1,94 @@
+About:
+  profile:
+    name: "Vu Quang Minh"
+    description: |
+      🔨 Build Apps
+      🌈 Spread Positive Vibes
+      🤩 Do What Excites
+    email: "minhvuquang2000317@gmail.com"
+    phone: "+65 8742 9618"
+  social:
+    github: "https://github.com/Dev317"
+    linkedin: "https://www.linkedin.com/in/vu-quang-minh-b0b41b207/"
+    medium: "https://medium.com/@vuquangminh"
+    instagram: "https://www.instagram.com/_n1xxy__/"
+    facebook : "https://www.facebook.com/minh.vuquang.1238"
+  summary:
+    description: |
+      - Currently an undergraduate pursuing Computer Science and Business courses.
+      - Having strong interest in the development and employment of software applications/products that are scale-able, viable and most importantly, beneficial to society.
+      - Participating in multiple hands-on projects in areas of software collaborative development, data analytics and market research to become a skilled and competent individual and to be able to work in different fields.
+      - Seeking tech-related opportunities in Singapore or in Southeast Asia region to increase my exposure to the usage and deployment of tech-based applications across different industries!
+  education:
+    - "exchange":
+      school: "**University of Edinburgh** (Exchange Semester)"
+      year: "Aug 2023 - Jan 2024"
+      degree: "*Informatics*"
+      description: |
+        - Deep dive in using computing techniques for Biology, Neuroscience and Knowledge Graph
+        - An eye opening experience for personal development
+    - "bachelor":
+      school: "**Singapore Management Univeristy** (Bachelor of Science)"
+      year: "Sep 2020 - May 2024"
+      degree: "*Computer Science (AI and Marketing Analytics)*"
+      description: |
+        - ASEAN Undegraduate Scholars
+        - Dean's List: AY 2021-2022, AY 2022-2023
+  technology_stack:
+    description: |
+      - 👩‍💻 **Programming Languages**: Python, Java, Javascript, Solidity
+      - 🗄️ **Web Frameworks**: Flask, Springboot
+      - 🔧 **DevOps**: Ansible, Terraform
+      - 🤖 **AI Frameworks**: PyTorch, Tensorflow
+      - ☁️ **Cloud Services**: AWS, GCP
+      - 📊 **Data Analytics**: Tableau, Excel, SQL, Streamlit
+  work_experience:
+    - "Doctor Anywhere":
+      job: "**Data Engineer**"
+      duration: "May 2023 - Aug 2023"
+      company: "*Doctor Anywhere (Internship)*"
+      description: |
+        - Maintained CDC, Batch and Streaming ETL pipelines with MySQL, AWS DMS, Apache Beam, Kafka, GCP Big Query, GCP Data Flow, Ansible.
+        - Implemented event-driven ETL pipelines using GCP Cloud Function, Cloud Run, PubSub, GCS.
+        - Prototyped in-house chatbot to address data-related queries, with analytic feedback using Langchain, Langfuse, Chainlit, ChromaDB and VertexAI.
+        - Refactored codebase and improved test coverage.
+        - Implemented RPA for 3rd party UI integration and data scraping with Selenium.
+    - "Grab":
+      job: "**Academic Researcher • Operations External Talent**"
+      duration: "Jan 2023 - May 2023"
+      company: "*Grab (Apprenticeship)*"
+      description: |
+        - Implemented web-scraping microservice to retrieve Singapore's health institutions data with Flask, Selenium and Docker.
+        - Developed and deployed binary classification model for validating medical certificates with Tensorflow.
+        - Integrate OCR solution to automate medical certificates processing using AWS services (Lambda, ECS, Google Cloud APIs).
+        - Implemented MLOps pipeline with MLflow (model registry) and Label Studio (auto mage labelling) that retrain deep learning model automatically to reduce model drift.
+    - "SMU":
+      job: "**Machine Learning Researcher**"
+      duration: "May 2022 - Dec 2022"
+      company: "*SMU Research Lab (Internship)*"
+      description: |
+        - Maintained AP-Coach Programming services using Docker and multiple AWS services (EC2, ECS, CodeCommit, CodePipeline, S3, Route53, RDS, Redis).
+        - Full-stack web-app development with Flask back-end and HTML/CSS/JS & jQuery for front-end.
+        - Enhanced code similarity check by implementing AST tree.
+        - Enhanced code feedback mechanism (code hinting for programming beginners using OpenAI).
+        - Reduced programming exercise creation time for instructors using Codex.
+        - Developed new feature that can auto-generate coding exercises and test cases.
+        - Improved coding questions feedback by integrating GPT-3 Python-code translation.
+    - "Homebase":
+      job: "**Data Engineer**"
+      duration: "Jun 2022 - Nov 2022"
+      company: "*Homebase (Internship)*"
+      description: |
+        - Implemented Facebook spamming tool to increase sales leads using Flask, Redis, jQuery, Heroku.
+        - Automated Sales and HR metric collection to reduce reporting time for BI analyst with Google App Scripts.
+        - Prototyped numerous automation tasks for Operation team using Python.
+    - "Wiziin":
+      job: "**Marketing Investment**"
+      duration: "Jun 2021 - Aug 2021"
+      company: "*Wiziin Inc (Internship)*"
+      description: |
+        - Conducted market research on regional and global startups investment platforms.
+        - Translated and produced industry/startups-related written content on Vietnam Venture Capital Community Facebook and LinkedIn group.
+        - Sourced, analyzed pitch decks and produced startups/SMEs-related content for Wiziin Beta platform.
+Projects:
+
