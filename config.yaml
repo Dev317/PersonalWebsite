@@ -91,4 +91,77 @@ About:
         - Translated and produced industry/startups-related written content on Vietnam Venture Capital Community Facebook and LinkedIn group.
         - Sourced, analyzed pitch decks and produced startups/SMEs-related content for Wiziin Beta platform.
 Projects:
-
+  "Text2SQL":
+    project_name: "Text2SQL"
+    image_path: "/Text2SQL.png"
+    description: |
+      An LLM-powered Chatbot that can generates semantically correct SQL queries given an user prompt, DDL schema and some sample csv data
+      Leveraged Langchain to build prompts and integrate with LLMs such as VertexAI-Codechat and OpenAI GPT-3.5.
+      Implemented text embeddings storage using ChromaDB vector database for targeted LLM relevant document queries.
+      Implemented a lightweight chatbot UI using Chainlit that displays step-by-step how the LLMs generate responses.
+      Integrated with Langfuse for LLM usage analytics and response evaluation.
+    repo_link: "https://github.com/Dev317/Chainlit-Text2SQL"
+    repo_name: "Dev317/Chainlit-Text2SQL"
+    tech_stack: "Langchain, Chainlit, Langfuse, ChromaDB"
+  "Audio Diffuser":
+    project_name: "Audio Diffuser"
+    image_path: "/AudioDiffuser.png"
+    description: |
+      An audio-thumbnail generator that leverages stable diffusion to convert sound to images.
+      Assembling different pretrained models (VAE, UNet, VIT, AST) to create a stable diffusion system that generates images from text prompt.
+      Created multilabeled classification model to classify sound types.
+      Implemented a lightweight Flask server to serve the models.
+    repo_link: "https://github.com/Dev317/Stable-Diffusion"
+    repo_name: "Dev317/Stable-Diffusion"
+    tech_stack: "Flask, PyTorch, AWS"
+  "Wafflert":
+    project_name: "Wafflert"
+    image_path: "/Wafflert.jpeg"
+    description: |
+      A microservice-based, message driven app to order Triplet Waffle!
+      Implemented Telegram-registration and messaging containerised microservices with Flask, Docker and RabbitMQ Architected application on AWS ECS with Terraform.
+      Implemented CI/CD pipeline on GitLab that accelerates release of Docker images and auto deployment of Docker container
+    repo_link: "https://github.com/Dev317/Wafflert"
+    repo_name: "Dev317/Wafflert"
+    tech_stack: "Flask, Express.js, Django, Terraform, AMQP, NGINX, Terraform"
+  "Ascenda":
+    project_name: "Ascenda"
+    image_path: "/Ascenda.jpg"
+    description: |
+      A serverless-based app that processes 1GB credit card transactions a day.
+      Developed a RESTful API backend system using AWS Lambda and API Gateway, processing 1GB of transaction data in less than 4 minutes.
+      Implemented a high availability cloud architecture that can failover with Terraform.
+      Implemented CI/CD pipeline on Github Actions, produced test cases for unit and integration testing.
+    repo_link: "https://github.com/Dev317/AscendaTransactionApp"
+    repo_name: "Dev317/AscendaTransactionApp"
+    tech_stack: "AWS, React.js, NGINX, Terraform"
+  "AP Coach":
+    project_name: "AP Coach"
+    image_path: "/APCoach.png"
+    description: |
+      An AI-based formative feedback generation to improve student learning outcomes in introductory programming courses.
+      Integrated with GPT-3.5 to automate coding exercises, coding solutions and code explanations generation for Python language.
+      Employed microservice-based approached to handle multiple services: user authentication, exercise generating and scoring.
+    repo_link: "https://github.com/roystonlek/urpdevrepo"
+    repo_name: "roystonlek/urpdevrepo"
+    tech_stack: "Flask, jQuery, AWS, MySQL"
+  "Jio Leh":
+    project_name: "Jio Leh"
+    image_path: "/JioLeh.png"
+    description: |
+      A Web3 social food discovery referral web-app.
+      Developed a full-stack web-responsive Sanity and React.js app where users can post food content and F&B vendors can create promotional campaign.
+      Designed, tested and deployed Ethereum smart contracts for managing payment system.
+    repo_link: "https://github.com/Dev317/jioleh"
+    repo_name: "Dev317/jioleh"
+    tech_stack: "Sanity.io, React.js, Hardhat.js"
+  "Fractionalise Housing":
+    project_name: "Fractionalise Housing"
+    image_path: "/FractionaliseHousing.png"
+    description: |
+      A fractionalised property platform to increase client's trust using Ethereum Blockchain.
+      Developed a full-stack DApp with Next.js, deployed front-end with Vercel.
+      Designed, tested and deployed Ethereum smart contracts for managing NFT listings, payments and escrow.
+    repo_link: "https://github.com/Dev317/fractionalize-nft"
+    repo_name: "Dev317/fractionalize-nft"
+    tech_stack: "Next.js, Hardhat.js, Solidity"
