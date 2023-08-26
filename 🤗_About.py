@@ -13,12 +13,12 @@ ASSET_DIR = f"{os.getcwd()}/assets"
 CONFIG = get_config()
 PAGE = "About"
 
-st.sidebar.markdown("""
-***
-### Copyright
+
+st.sidebar.markdown(f"""
+### Copyright ©
 ```
-author={MinhVuQuang},
-year={2023}
+author={{Vu Quang Minh}},
+year={{2023}}
 ```
 ***
 """,
