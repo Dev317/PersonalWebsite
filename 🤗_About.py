@@ -15,7 +15,7 @@ PAGE = "About"
 
 
 st.sidebar.markdown(f"""
-### Copyright ©
+Copyright ©
 ```
 author={{Vu Quang Minh}},
 year={{2023}}
@@ -109,3 +109,11 @@ for i in CONFIG[PAGE][WORK_EXPERIENCE_SECTION]:
         company=i['company'],
         description=i['description']
     )
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
