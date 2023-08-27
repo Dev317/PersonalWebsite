@@ -6,7 +6,15 @@ from streamlit_extras.badges import badge
 
 
 st.header("Personal Workspace")
-
+st.sidebar.markdown(f"""
+Copyright ©
+```
+author={{Vu Quang Minh}},
+year={{2023}}
+```
+***
+""",
+unsafe_allow_html=True)
 
 ASSET_DIR = f"{os.getcwd()}/assets"
 CONFIG = get_config()
