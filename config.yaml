@@ -43,6 +43,13 @@ About:
       - ☁️ **Cloud Services**: AWS, GCP
       - 📊 **Data Analytics**: Tableau, Excel, SQL, Streamlit
   work_experience:
+    - "Coinhako":
+      job: "**Software Engineer**"
+      duration: "Jan 2024 - Present"
+      company: "*Coinhako (Internship)*"
+      description: |
+        - Optimized build run time workflows on GitHub Action to improve developers productivity
+        - Migrated existing overengineered data pipelines to new FDW PostgreSQL infrastructure to reduce cost
     - "Doctor Anywhere":
       job: "**Data Engineer**"
       duration: "May 2023 - Aug 2023"
